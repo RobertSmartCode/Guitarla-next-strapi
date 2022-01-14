@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Header from './Header'
-import Footer from './footer'
+import Footer from './Footer'
 
 const Layout = ({children, pagina}) => {
     return (

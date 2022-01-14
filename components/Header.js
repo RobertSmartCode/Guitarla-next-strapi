@@ -8,14 +8,14 @@ const Header = () => {
             <div className="contenedor" >
                 <div className={styles.barra} >
                     <Link href="/">
-                            <div> {/* este div es porque next sino se queja */}
+                            <a> {/* este div es porque next sino se queja */}
                                 <Image
                                     src="/img/logo.svg"
                                     width={400}
                                     height={100}
                                     alt="image Logo"
                                 />
-                            </div>
+                            </a>
                     </Link>
                     
                     <nav className={styles.navegacion}>
