@@ -11,23 +11,23 @@ export default function Home({guitarras, cursos, entradas}) {
     guitarra= {guitarras[1]}
     >
       <main className='contenedor' >
-      <h1 className='heading' >Nuestra Colecion</h1>
-      <Listado
-        guitarras={guitarras}
+          <h1 className='heading' >Nuestra Coleccion</h1>
+          <Listado
+            guitarras={guitarras}
+            />
+        
+      
+        <Curso
+        cursos= {cursos}
+        
         />
-      </main>
-   
-    <Curso
-    cursos= {cursos}
-    
-    />
 
-      <section className='contenedor' >
-      <ListadoBlog
-                  entradas= {entradas}
-            />   
-      </section>
-   
+          <section >
+          <ListadoBlog
+                      entradas= {entradas}
+                />   
+          </section>
+      </main>
       </Layout>
   )
 
@@ -52,7 +52,6 @@ export async function getServerSideProps(){
     
   ])
 
-  
  return {
      props:{
      guitarras,
