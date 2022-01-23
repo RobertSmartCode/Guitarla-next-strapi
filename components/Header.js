@@ -31,7 +31,7 @@ const Header = ({guitarra}) => {
                 </div>
                 {guitarra && (
                     <div className={styles.modelo} >
-                        <h3>Modelo{ guitarra.nombre}</h3>
+                        <h2>Modelo {guitarra.nombre}</h2>
                         <p>{guitarra.descripcion}</p>
                         <p className={styles.precio}>${guitarra.precio}</p>
                         <Link href={`/guitarras/${guitarra.url}`} >
