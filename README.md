@@ -35,6 +35,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 # Guitarla-next-strapi
 
 Usar npm i 
+
 crear el archivo .env.local
 API_URL=http://localhost:1337
 NEXT_PUBLIC_API_URL=http://localhost:1337
+
+npm run develop
