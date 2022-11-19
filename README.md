@@ -33,3 +33,8 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 # Guitarla-next-strapi
+
+Usar npm i 
+crear el archivo .env.local
+API_URL=http://localhost:1337
+NEXT_PUBLIC_API_URL=http://localhost:1337
